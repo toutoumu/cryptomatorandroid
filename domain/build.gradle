@@ -24,6 +24,9 @@ android {
 
 		coreLibraryDesugaringEnabled true
 	}
+	kotlinOptions {
+		jvmTarget = "17"
+	}
 	lint {
 		abortOnError false
 		ignoreWarnings true

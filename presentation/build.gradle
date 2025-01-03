@@ -43,6 +43,9 @@ android {
 
 		coreLibraryDesugaringEnabled true
 	}
+	kotlinOptions {
+		jvmTarget = "17"
+	}
 
 	buildFeatures {
 		viewBinding true
