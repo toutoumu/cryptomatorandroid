@@ -59,6 +59,10 @@ android {
 		lite {
 			dimension "version"
 		}
+
+		accrescent {
+			dimension "version"
+		}
 	}
 
 	sourceSets {
@@ -71,11 +75,15 @@ android {
 		}
 
 		fdroid {
-			java.srcDirs = ['src/main/java/', 'src/apiKey/java/', 'src/fdroid/java/']
+			java.srcDirs = ['src/main/java/', 'src/apiKey/java/', 'src/fdroidAccrescent/java/']
 		}
 
 		lite {
 			java.srcDirs = ['src/main/java/', 'src/lite/java/']
+		}
+
+		accrescent {
+			java.srcDirs = ['src/main/java/', 'src/apiKey/java/', 'src/fdroidAccrescent/java/']
 		}
 	}
 	packagingOptions {
@@ -109,6 +117,7 @@ dependencies {
 	playstoreImplementation dependencies.pcloud
 	apkstoreImplementation dependencies.pcloud
 	fdroidImplementation dependencies.pcloud
+	accrescentImplementation dependencies.pcloud
 
 	coreLibraryDesugaring dependencies.coreDesugaring
 
@@ -130,14 +139,18 @@ dependencies {
 	apkstoreImplementation dependencies.dropboxAndroid
 	fdroidImplementation dependencies.dropboxCore
 	fdroidImplementation dependencies.dropboxAndroid
+	accrescentImplementation dependencies.dropboxCore
+	accrescentImplementation dependencies.dropboxAndroid
 
 
 	playstoreImplementation dependencies.msgraphAuth
 	apkstoreImplementation dependencies.msgraphAuth
 	fdroidImplementation dependencies.msgraphAuth
+	accrescentImplementation dependencies.msgraphAuth
 	playstoreImplementation dependencies.msgraph
 	apkstoreImplementation dependencies.msgraph
 	fdroidImplementation dependencies.msgraph
+	accrescentImplementation dependencies.msgraph
 
 	implementation dependencies.stax
 	api dependencies.minIo
