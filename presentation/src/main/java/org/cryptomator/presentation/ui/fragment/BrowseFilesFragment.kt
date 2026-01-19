@@ -9,7 +9,12 @@ import android.view.View.VISIBLE
 import android.widget.RelativeLayout
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.GridLayoutManager
+import androidx.recyclerview.widget.RecyclerView
+import androidx.recyclerview.widget.RecyclerView.NO_POSITION
+import androidx.recyclerview.widget.RecyclerView.SCROLL_STATE_IDLE
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+import com.simplecityapps.recyclerview_fastscroll.interfaces.OnFastScrollStateChangeListener
 import org.cryptomator.domain.CloudNode
 import org.cryptomator.generator.Fragment
 import org.cryptomator.presentation.R
@@ -27,6 +32,8 @@ import org.cryptomator.presentation.model.ProgressModel
 import org.cryptomator.presentation.presenter.BrowseFilesPresenter
 import org.cryptomator.presentation.ui.adapter.BrowseFilesAdapter
 import org.cryptomator.presentation.util.ResourceHelper.Companion.getPixelOffset
+import org.cryptomator.util.FileViewMode
+import org.cryptomator.util.SharedPreferencesHandler
 import java.util.Optional
 import javax.inject.Inject
 
@@ -38,6 +45,9 @@ class BrowseFilesFragment : BaseFragment<FragmentBrowseFilesBinding>(FragmentBro
 
 	@Inject
 	lateinit var browseFilesPresenter: BrowseFilesPresenter
+
+	@Inject
+	lateinit var sharedPreferencesHandler: SharedPreferencesHandler
 
 	private var navigationMode: ChooseCloudNodeSettings.NavigationMode? = null
 
@@ -82,6 +92,27 @@ class BrowseFilesFragment : BaseFragment<FragmentBrowseFilesBinding>(FragmentBro
 		}
 	}
 
+	private val onFastScrollStateChangeListener = object : OnFastScrollStateChangeListener {
+		@Override
+		override fun onFastScrollStop() {
+			thumbnailsForVisibleNodes()
+		}
+
+		@Override
+		override fun onFastScrollStart() {
+		}
+	}
+
+	private val onScrollListener = object : RecyclerView.OnScrollListener() {
+		@Override
+		override fun onScrollStateChanged(recyclerView: RecyclerView, newState: Int) {
+			super.onScrollStateChanged(recyclerView, newState)
+			if (newState == SCROLL_STATE_IDLE) {
+				thumbnailsForVisibleNodes()
+			}
+		}
+	}
+
 	val selectedCloudNodes: List<CloudNodeModel<*>>
 		get() = cloudNodesAdapter.selectedCloudNodes()
 
@@ -98,11 +129,16 @@ class BrowseFilesFragment : BaseFragment<FragmentBrowseFilesBinding>(FragmentBro
 		cloudNodesAdapter.setChooseCloudNodeSettings(chooseCloudNodeSettings)
 		navigationMode?.let { cloudNodesAdapter.updateNavigationMode(it) }
 
-		binding.recyclerViewLayout.recyclerView.layoutManager = LinearLayoutManager(context())
+		// Restore saved view mode
+		val savedViewMode = sharedPreferencesHandler.fileViewMode()
+		updateViewMode(savedViewMode)
+
 		binding.recyclerViewLayout.recyclerView.adapter = cloudNodesAdapter
 		binding.recyclerViewLayout.recyclerView.setHasFixedSize(true)
 		binding.recyclerViewLayout.recyclerView.setPadding(0, 0, 0, TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 88f, resources.displayMetrics).toInt())
 		binding.recyclerViewLayout.recyclerView.clipToPadding = false
+		binding.recyclerViewLayout.recyclerView.setOnFastScrollStateChangeListener(onFastScrollStateChangeListener)
+		binding.recyclerViewLayout.recyclerView.addOnScrollListener(onScrollListener)
 
 		browseFilesPresenter.onFolderRedisplayed(folder)
 
@@ -111,6 +147,19 @@ class BrowseFilesFragment : BaseFragment<FragmentBrowseFilesBinding>(FragmentBro
 			isSelectionMode(FOLDERS_ONLY) -> setupViewForFolderSelection()
 			isSelectionMode(FILES_ONLY) -> setupViewForFilesSelection()
 			isNavigationMode(SELECT_ITEMS) -> setupViewForNodeSelectionMode()
+		}
+	}
+
+	private fun thumbnailsForVisibleNodes() {
+		val layoutManager = binding.recyclerViewLayout.recyclerView.layoutManager as LinearLayoutManager
+		val first = layoutManager.findFirstVisibleItemPosition()
+		val last = layoutManager.findLastVisibleItemPosition()
+		if (first == NO_POSITION || last == NO_POSITION) {
+			return
+		}
+		val visibleCloudNodes = cloudNodesAdapter.renderedCloudNodes().subList(first, last + 1)
+		if (!binding.swipeRefreshLayout.isRefreshing) {
+			browseFilesPresenter.associateThumbnails(visibleCloudNodes)
 		}
 	}
 
@@ -195,6 +244,19 @@ class BrowseFilesFragment : BaseFragment<FragmentBrowseFilesBinding>(FragmentBro
 		} else {
 			node?.progress = progress
 			node?.let { addOrUpdate(it) }
+		}
+	}
+
+	fun replaceImagesWithDownloadIcon(nodes: List<CloudNodeModel<*>>?) {
+		nodes?.forEach { node ->
+			replaceImageWithDownloadIcon(node)
+		}
+	}
+
+	fun replaceImageWithDownloadIcon(node: CloudNodeModel<*>?) {
+		val viewHolder = viewHolderFor(node)
+		if (viewHolder.isPresent) {
+			viewHolder.get().replaceImageWithDownloadIcon()
 		}
 	}
 
@@ -293,6 +355,23 @@ class BrowseFilesFragment : BaseFragment<FragmentBrowseFilesBinding>(FragmentBro
 
 	fun setSort(comparator: Comparator<CloudNodeModel<*>>) {
 		cloudNodesAdapter.setSort(comparator)
+	}
+
+	fun updateViewMode(viewMode: FileViewMode) {
+		val recyclerView = binding.recyclerViewLayout.recyclerView
+		
+		// Update adapter view mode
+		cloudNodesAdapter.setViewMode(viewMode)
+		
+		when (viewMode) {
+			FileViewMode.LIST -> {
+				recyclerView.layoutManager = LinearLayoutManager(context())
+			}
+			FileViewMode.GRID -> {
+				val spanCount = 3 // Number of columns in grid
+				recyclerView.layoutManager = GridLayoutManager(context(), spanCount)
+			}
+		}
 	}
 
 	companion object {

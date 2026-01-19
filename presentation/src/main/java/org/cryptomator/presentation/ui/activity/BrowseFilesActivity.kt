@@ -50,6 +50,7 @@ import org.cryptomator.presentation.ui.dialog.ReplaceDialog
 import org.cryptomator.presentation.ui.dialog.SymLinkDialog
 import org.cryptomator.presentation.ui.dialog.UploadCloudFileDialog
 import org.cryptomator.presentation.ui.fragment.BrowseFilesFragment
+import org.cryptomator.util.FileViewMode
 import java.util.regex.Pattern
 import javax.inject.Inject
 
@@ -235,6 +236,10 @@ class BrowseFilesActivity : BaseActivity<ActivityLayoutBinding>(ActivityLayoutBi
 			browseFilesPresenter.onRefreshTriggered(browseFilesFragment().folder)
 			true
 		}
+		R.id.action_view_mode -> {
+			toggleViewMode()
+			true
+		}
 		android.R.id.home -> {
 			// Respond to the action bar's Up/Home button
 			if (isNavigationMode(SELECT_ITEMS)) {
@@ -259,6 +264,8 @@ class BrowseFilesActivity : BaseActivity<ActivityLayoutBinding>(ActivityLayoutBi
 		val searchView = menu.findItem(R.id.action_search).actionView as SearchView
 		searchView.setOnQueryTextListener(this)
 		searchView.setOnCloseListener(this)
+
+		updateViewModeIcon(menu)
 
 		return super.onPrepareOptionsMenu(menu)
 	}
@@ -541,6 +548,14 @@ class BrowseFilesActivity : BaseActivity<ActivityLayoutBinding>(ActivityLayoutBi
 		browseFilesFragment().showProgress(nodes, progress)
 	}
 
+	override fun replaceImageWithDownloadIcon(nodes: CloudNodeModel<*>) {
+		browseFilesFragment().replaceImageWithDownloadIcon(nodes)
+	}
+
+	override fun replaceImagesWithDownloadIcon(nodes: List<CloudNodeModel<*>>) {
+		browseFilesFragment().replaceImagesWithDownloadIcon(nodes)
+	}
+
 	override fun hideProgress(node: CloudNodeModel<*>) {
 		browseFilesFragment().hideProgress(node)
 	}
@@ -611,5 +626,31 @@ class BrowseFilesActivity : BaseActivity<ActivityLayoutBinding>(ActivityLayoutBi
 
 	override fun navigateFolderBackBecauseNoDirFile() {
 		onBackPressed()
+	}
+
+	private fun toggleViewMode() {
+		val currentMode = sharedPreferencesHandler.fileViewMode()
+		val newMode = if (currentMode == FileViewMode.LIST) {
+			FileViewMode.GRID
+		} else {
+			FileViewMode.LIST
+		}
+		sharedPreferencesHandler.setFileViewMode(newMode)
+		browseFilesFragment().updateViewMode(newMode)
+		invalidateOptionsMenu()
+	}
+
+	private fun updateViewModeIcon(menu: Menu) {
+		val viewModeItem = menu.findItem(R.id.action_view_mode)
+		if (viewModeItem != null) {
+			val currentMode = sharedPreferencesHandler.fileViewMode()
+			if (currentMode == FileViewMode.LIST) {
+				viewModeItem.setIcon(R.drawable.ic_view_list)
+				viewModeItem.setTitle(R.string.action_view_mode_list)
+			} else {
+				viewModeItem.setIcon(R.drawable.ic_view_grid)
+				viewModeItem.setTitle(R.string.action_view_mode_grid)
+			}
+		}
 	}
 }

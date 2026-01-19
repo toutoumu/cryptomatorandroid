@@ -1,11 +1,13 @@
 package org.cryptomator.presentation.ui.adapter
 
+import android.graphics.BitmapFactory
 import android.os.PatternMatcher
 import android.view.LayoutInflater
 import android.view.View
 import android.view.View.GONE
 import android.view.View.VISIBLE
 import android.view.ViewGroup
+import android.widget.RelativeLayout
 import com.simplecityapps.recyclerview_fastscroll.views.FastScrollRecyclerView
 import org.cryptomator.domain.CloudNode
 import org.cryptomator.presentation.R
@@ -30,6 +32,9 @@ import org.cryptomator.presentation.util.FileSizeHelper
 import org.cryptomator.presentation.util.FileUtil
 import org.cryptomator.presentation.util.ResourceHelper.Companion.getDrawable
 import org.cryptomator.util.SharedPreferencesHandler
+import org.cryptomator.util.file.MimeType
+import org.cryptomator.util.file.MimeTypes
+import org.cryptomator.util.FileViewMode
 import javax.inject.Inject
 
 class BrowseFilesAdapter @Inject
@@ -37,11 +42,13 @@ constructor(
 	private val dateHelper: DateHelper, //
 	private val fileSizeHelper: FileSizeHelper, //
 	private val fileUtil: FileUtil, //
-	private val sharedPreferencesHandler: SharedPreferencesHandler
+	private val sharedPreferencesHandler: SharedPreferencesHandler, //
+	private val mimeTypes: MimeTypes //
 ) : RecyclerViewBaseAdapter<CloudNodeModel<*>, BrowseFilesAdapter.ItemClickListener, VaultContentViewHolder, ItemBrowseFilesNodeBinding>(CloudNodeModelNameAZComparator()), FastScrollRecyclerView.SectionedAdapter {
 
 	private var chooseCloudNodeSettings: ChooseCloudNodeSettings? = null
 	private var navigationMode: ChooseCloudNodeSettings.NavigationMode? = null
+	private var viewMode: FileViewMode = FileViewMode.LIST
 
 	private val isInSelectionMode: Boolean
 		get() = chooseCloudNodeSettings != null
@@ -90,6 +97,15 @@ constructor(
 		notifyDataSetChanged()
 	}
 
+	fun updateViewMode(viewMode: FileViewMode) {
+		this.viewMode = viewMode
+	}
+	
+	fun setViewMode(viewMode: FileViewMode) {
+		this.viewMode = viewMode
+		notifyDataSetChanged()
+	}
+
 	fun renderedCloudNodes(): List<CloudNodeModel<*>> {
 		return itemCollection
 	}
@@ -132,10 +148,21 @@ constructor(
 			bindSettings(node)
 			bindLongNodeClick(node)
 			bindFileOrFolder(node)
+			// Apply view mode layout after all binding is complete
+			applyViewModeLayout()
 		}
 
 		private fun bindNodeImage(node: CloudNodeModel<*>) {
-			binding.cloudNodeImage.setImageResource(bindCloudNodeImage(node))
+			if (node is CloudFileModel && isImageMediaType(node.name) && node.thumbnail != null) {
+				val bitmap = BitmapFactory.decodeFile(node.thumbnail!!.absolutePath)
+				binding.cloudNodeImage.setImageBitmap(bitmap)
+			} else {
+				binding.cloudNodeImage.setImageResource(bindCloudNodeImage(node))
+			}
+		}
+
+		private fun isImageMediaType(filename: String): Boolean {
+			return (mimeTypes.fromFilename(filename) ?: MimeType.WILDCARD_MIME_TYPE).mediatype == "image"
 		}
 
 		private fun bindCloudNodeImage(cloudNodeModel: CloudNodeModel<*>): Int {
@@ -319,6 +346,10 @@ constructor(
 			bound?.progress = null
 		}
 
+		fun replaceImageWithDownloadIcon() {
+			binding.cloudNodeImage.setImageResource(R.drawable.ic_file_download)
+		}
+
 		private fun switchTo(state: UiStateTest) {
 			if (uiState !== state) {
 				uiState = state
@@ -438,6 +469,292 @@ constructor(
 			}
 
 		}
+
+		private fun applyViewModeLayout() {
+			when (viewMode) {
+				FileViewMode.LIST -> {
+					// List mode - restore original layout
+					restoreListModeLayout()
+				}
+				FileViewMode.GRID -> {
+					// Grid mode - adjust for grid layout
+					applyGridModeLayout()
+				}
+			}
+		}
+
+		private fun restoreListModeLayout() {
+			// Remove debug background color
+			itemView.setBackgroundColor(android.graphics.Color.TRANSPARENT)
+			
+			// Set list mode item height
+			val listItemHeight = itemView.context.resources.getDimensionPixelSize(R.dimen.list_item_height)
+			itemView.layoutParams.height = listItemHeight
+			
+			// Restore original thumbnail size and positioning
+			val thumbnailSize = itemView.context.resources.getDimensionPixelSize(R.dimen.thumbnail_size)
+			val thumbnailParams = binding.cloudNodeImage.layoutParams as RelativeLayout.LayoutParams
+			thumbnailParams.width = thumbnailSize
+			thumbnailParams.height = thumbnailSize
+			// Restore original thumbnail positioning
+			thumbnailParams.removeRule(RelativeLayout.CENTER_HORIZONTAL)
+			thumbnailParams.addRule(RelativeLayout.CENTER_VERTICAL)
+			thumbnailParams.topMargin = 0
+			binding.cloudNodeImage.layoutParams = thumbnailParams
+			
+			// Restore settings button positioning for list mode
+			val settingsParams = binding.settings.layoutParams as RelativeLayout.LayoutParams
+			settingsParams.removeRule(RelativeLayout.ALIGN_PARENT_RIGHT)
+			settingsParams.removeRule(RelativeLayout.ALIGN_PARENT_TOP)
+			settingsParams.addRule(RelativeLayout.CENTER_VERTICAL)
+			settingsParams.addRule(RelativeLayout.ALIGN_PARENT_RIGHT)
+			settingsParams.topMargin = 0
+			settingsParams.rightMargin = 0
+			binding.settings.layoutParams = settingsParams
+			
+			// Restore content positioning for list mode
+			val folderContentParams = binding.llCloudFolderContent.root.layoutParams as RelativeLayout.LayoutParams
+			folderContentParams.removeRule(RelativeLayout.BELOW)
+			folderContentParams.removeRule(RelativeLayout.CENTER_HORIZONTAL)
+			folderContentParams.addRule(RelativeLayout.CENTER_VERTICAL)
+			folderContentParams.addRule(RelativeLayout.RIGHT_OF, R.id.cloud_node_image)
+			folderContentParams.addRule(RelativeLayout.LEFT_OF, R.id.controls)
+			folderContentParams.topMargin = 0
+			binding.llCloudFolderContent.root.layoutParams = folderContentParams
+			
+			val fileContentParams = binding.llCloudFileContent.root.layoutParams as RelativeLayout.LayoutParams
+			fileContentParams.removeRule(RelativeLayout.BELOW)
+			fileContentParams.removeRule(RelativeLayout.CENTER_HORIZONTAL)
+			fileContentParams.addRule(RelativeLayout.CENTER_VERTICAL)
+			fileContentParams.addRule(RelativeLayout.RIGHT_OF, R.id.cloud_node_image)
+			fileContentParams.addRule(RelativeLayout.LEFT_OF, R.id.controls)
+			fileContentParams.topMargin = 0
+			binding.llCloudFileContent.root.layoutParams = fileContentParams
+			
+			// Restore text alignment and size for list mode
+			binding.llCloudFolderContent.cloudFolderText.gravity = android.view.Gravity.START or android.view.Gravity.CENTER_VERTICAL
+			binding.llCloudFolderContent.cloudFolderText.setTextColor(android.graphics.Color.WHITE) // Original color
+			binding.llCloudFolderContent.cloudFolderText.textSize = 16f // Original size
+			
+			binding.llCloudFileContent.cloudFileText.gravity = android.view.Gravity.START or android.view.Gravity.CENTER_VERTICAL
+			binding.llCloudFileContent.cloudFileText.setTextColor(android.graphics.Color.WHITE) // Original color
+			binding.llCloudFileContent.cloudFileText.textSize = 16f // Original size
+			
+			binding.llCloudFileContent.cloudFileSubText.gravity = android.view.Gravity.START or android.view.Gravity.CENTER_VERTICAL
+			
+			// Restore visibility for list mode (show original content and file sub text)
+			binding.llCloudFileContent.cloudFileContent.visibility = VISIBLE
+			binding.llCloudFolderContent.cloudFolderContent.visibility = VISIBLE
+			binding.llCloudFileContent.cloudFileSubText.visibility = VISIBLE
+			
+			// Remove any overlay views added in grid mode
+			val parent = itemView as android.view.ViewGroup
+			while (parent.childCount > 5) { // Keep only original layout children
+				parent.removeViewAt(parent.childCount - 1)
+			}
+		}
+
+		private fun applyGridModeLayout() {
+			val context = itemView.context
+			val gridThumbnailSize = context.resources.getDimensionPixelSize(R.dimen.grid_thumbnail_size)
+			val padding = context.resources.getDimensionPixelSize(R.dimen.global_padding)
+			
+			// Remove debug background (now using normal background)
+			itemView.setBackgroundColor(android.graphics.Color.TRANSPARENT)
+			
+			// Set grid mode item height - thumbnail + filename + date + padding
+			val gridItemHeight = gridThumbnailSize + (padding * 2) + 70 // Space for 2 lines of text
+			itemView.layoutParams.height = gridItemHeight
+			
+			// Adjust thumbnail size to be square and centered
+			val thumbnailParams = binding.cloudNodeImage.layoutParams as RelativeLayout.LayoutParams
+			thumbnailParams.width = gridThumbnailSize
+			thumbnailParams.height = gridThumbnailSize
+			// Center thumbnail horizontally
+			thumbnailParams.addRule(RelativeLayout.CENTER_HORIZONTAL)
+			thumbnailParams.removeRule(RelativeLayout.CENTER_VERTICAL)
+			thumbnailParams.topMargin = padding / 2
+			binding.cloudNodeImage.layoutParams = thumbnailParams
+			
+			// Position settings button in top-right corner (pCloud style)
+			val settingsParams = binding.settings.layoutParams as RelativeLayout.LayoutParams
+			settingsParams.removeRule(RelativeLayout.CENTER_VERTICAL)
+			settingsParams.removeRule(RelativeLayout.LEFT_OF)
+			settingsParams.addRule(RelativeLayout.ALIGN_PARENT_RIGHT)
+			settingsParams.addRule(RelativeLayout.ALIGN_PARENT_TOP)
+			settingsParams.topMargin = padding / 4
+			settingsParams.rightMargin = padding / 4
+			binding.settings.layoutParams = settingsParams
+			
+			// Hide original content layouts in grid mode
+			binding.llCloudFileContent.cloudFileContent.visibility = GONE
+			binding.llCloudFolderContent.cloudFolderContent.visibility = GONE
+			
+			// Get the data from bound item
+			val (fileName, dateInfo) = when (val boundItem = bound) {
+				is CloudFileModel -> {
+					val formattedDate = dateHelper.getFormattedModifiedDate(boundItem.modified) ?: ""
+					boundItem.name to formattedDate
+				}
+				is CloudFolderModel -> {
+					boundItem.name to ""
+				}
+				else -> "Unknown" to ""
+			}
+			
+			// Remove any existing overlay views
+			val parent = itemView as android.view.ViewGroup
+			while (parent.childCount > 5) { // Keep only original layout children
+				parent.removeViewAt(parent.childCount - 1)
+			}
+			
+			// Calculate column width for text sizing
+			val screenWidth = context.resources.displayMetrics.widthPixels
+			val gridColumns = 3 // As defined in BrowseFilesFragment
+			val columnWidth = screenWidth / gridColumns
+			val availableTextWidth = columnWidth - (padding * 2)
+			
+			// Create filename text view (pCloud style)
+			val fileNameView = android.widget.TextView(context)
+			fileNameView.id = android.view.View.generateViewId() // Generate unique ID
+			
+			// Smart text shortening based on column width
+			val shortenedFileName = shortenTextForWidth(fileName, availableTextWidth, 12f, context)
+			fileNameView.text = shortenedFileName
+			
+			fileNameView.setTextColor(android.graphics.Color.WHITE)
+			fileNameView.textSize = 12f
+			fileNameView.gravity = android.view.Gravity.CENTER_HORIZONTAL
+			fileNameView.maxLines = 1
+			fileNameView.ellipsize = android.text.TextUtils.TruncateAt.MIDDLE
+			fileNameView.setPadding(padding / 2, 2, padding / 2, 0)
+			
+			val fileNameParams = android.widget.RelativeLayout.LayoutParams(
+				android.widget.RelativeLayout.LayoutParams.MATCH_PARENT,
+				android.widget.RelativeLayout.LayoutParams.WRAP_CONTENT
+			)
+			fileNameParams.addRule(RelativeLayout.BELOW, R.id.cloud_node_image)
+			fileNameParams.topMargin = 4
+			fileNameView.layoutParams = fileNameParams
+			
+			parent.addView(fileNameView)
+			
+			// Create date text view (only for files, pCloud style)
+			if (dateInfo.isNotEmpty()) {
+				val dateView = android.widget.TextView(context)
+				
+				// Apply smart shortening to date text as well
+				val shortenedDate = shortenTextForWidth(dateInfo, availableTextWidth, 10f, context)
+				dateView.text = shortenedDate
+				
+				dateView.setTextColor(android.graphics.Color.GRAY)
+				dateView.textSize = 10f
+				dateView.gravity = android.view.Gravity.CENTER_HORIZONTAL
+				dateView.maxLines = 1
+				dateView.ellipsize = android.text.TextUtils.TruncateAt.END
+				dateView.setPadding(padding / 2, 0, padding / 2, 0)
+				
+				val dateParams = android.widget.RelativeLayout.LayoutParams(
+					android.widget.RelativeLayout.LayoutParams.MATCH_PARENT,
+					android.widget.RelativeLayout.LayoutParams.WRAP_CONTENT
+				)
+				dateParams.addRule(RelativeLayout.BELOW, fileNameView.id)
+				dateView.layoutParams = dateParams
+				dateView.id = android.view.View.generateViewId()
+				
+				parent.addView(dateView)
+			}
+		}
+		
+		/**
+		 * Intelligently shorten text to fit within the specified width
+		 */
+		private fun shortenTextForWidth(text: String, availableWidth: Int, textSizeSp: Float, context: android.content.Context): String {
+			if (text.isEmpty() || availableWidth <= 0) return text
+			
+			// Create a paint object to measure text
+			val paint = android.graphics.Paint()
+			paint.textSize = textSizeSp * context.resources.displayMetrics.scaledDensity
+			paint.isAntiAlias = true
+			
+			// If text fits, return as is
+			val originalWidth = paint.measureText(text)
+			if (originalWidth <= availableWidth) {
+				return text
+			}
+			
+			// Smart shortening strategies
+			val extension = if (text.contains('.')) text.substringAfterLast('.', "") else ""
+			val nameWithoutExt = if (extension.isNotEmpty()) text.substringBeforeLast('.') else text
+			
+			// Strategy 1: Try keeping extension and shortening name
+			if (extension.isNotEmpty()) {
+				val ellipsis = "…"
+				val extensionText = ".$extension"
+				val extensionWidth = paint.measureText(extensionText)
+				val ellipsisWidth = paint.measureText(ellipsis)
+				val availableForName = availableWidth - extensionWidth - ellipsisWidth
+				
+				if (availableForName > 0) {
+					// Binary search to find max characters that fit
+					var maxChars = 0
+					var low = 1
+					var high = nameWithoutExt.length
+					
+					while (low <= high) {
+						val mid = (low + high) / 2
+						val testText = nameWithoutExt.substring(0, mid)
+						val testWidth = paint.measureText(testText)
+						
+						if (testWidth <= availableForName) {
+							maxChars = mid
+							low = mid + 1
+						} else {
+							high = mid - 1
+						}
+					}
+					
+					if (maxChars > 0) {
+						return nameWithoutExt.substring(0, maxChars) + ellipsis + extensionText
+					}
+				}
+			}
+			
+			// Strategy 2: Shorten entire text with ellipsis in middle
+			val ellipsis = "…"
+			val ellipsisWidth = paint.measureText(ellipsis)
+			val availableForText = availableWidth - ellipsisWidth
+			
+			if (availableForText > 0) {
+				// Binary search for maximum characters
+				var maxChars = 0
+				var low = 2 // Minimum 1 char on each side
+				var high = text.length - 1
+				
+				while (low <= high) {
+					val mid = (low + high) / 2
+					val halfChars = mid / 2
+					val testText = text.substring(0, halfChars) + text.substring(text.length - (mid - halfChars))
+					val testWidth = paint.measureText(testText)
+					
+					if (testWidth <= availableForText) {
+						maxChars = mid
+						low = mid + 1
+					} else {
+						high = mid - 1
+					}
+				}
+				
+				if (maxChars >= 2) {
+					val halfChars = maxChars / 2
+					return text.substring(0, halfChars) + ellipsis + text.substring(text.length - (maxChars - halfChars))
+				}
+			}
+			
+			// Fallback: Return first character + ellipsis
+			return if (text.isNotEmpty()) text.substring(0, 1) + "…" else text
+		}
+
 	}
 
 	private fun isSelectable(folder: CloudFolderModel): Boolean {

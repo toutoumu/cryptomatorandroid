@@ -8,6 +8,7 @@ import androidx.appcompat.app.AppCompatDelegate.MODE_NIGHT_YES
 import androidx.preference.PreferenceManager
 import com.google.common.base.Optional
 import org.cryptomator.util.LockTimeout.ONE_MINUTE
+import org.cryptomator.util.FileViewMode
 import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Locale
@@ -161,6 +162,16 @@ constructor(context: Context) : SharedPreferences.OnSharedPreferenceChangeListen
 		return defaultSharedPreferences.getValue(PHOTO_UPLOAD_INCLUDING_VIDEOS, false)
 	}
 
+	fun generateThumbnails(): ThumbnailsOption {
+		return when (defaultSharedPreferences.getValue(THUMBNAIL_GENERATION, "NEVER")) {
+			"NEVER" -> ThumbnailsOption.NEVER
+			"READONLY" -> ThumbnailsOption.READONLY
+			"PER_FILE" -> ThumbnailsOption.PER_FILE
+			"PER_FOLDER" -> ThumbnailsOption.PER_FOLDER
+			else -> ThumbnailsOption.NEVER
+		}
+	}
+
 	fun useLruCache(): Boolean {
 		return defaultSharedPreferences.getValue(USE_LRU_CACHE, false)
 	}
@@ -283,6 +294,15 @@ constructor(context: Context) : SharedPreferences.OnSharedPreferenceChangeListen
 		return defaultSharedPreferences.getBoolean(MICROSOFT_WORKAROUND, false)
 	}
 
+	fun fileViewMode(): FileViewMode {
+		val value = defaultSharedPreferences.getValue(FILE_VIEW_MODE, FileViewMode.LIST.name)
+		return FileViewMode.valueOf(value)
+	}
+
+	fun setFileViewMode(fileViewMode: FileViewMode) {
+		defaultSharedPreferences.setValue(FILE_VIEW_MODE, fileViewMode.name)
+	}
+
 	companion object {
 
 		private const val SCREEN_LOCK_DIALOG_SHOWN = "askForScreenLockDialogShown"
@@ -318,6 +338,8 @@ constructor(context: Context) : SharedPreferences.OnSharedPreferenceChangeListen
 		const val BIOMETRIC_AUTHENTICATION = "biometricAuthentication"
 		const val CRYPTOMATOR_VARIANTS = "cryptomatorVariants"
 		const val LICENSES_ACTIVITY = "licensesActivity"
+		const val THUMBNAIL_GENERATION = "thumbnailGeneration"
+		private const val FILE_VIEW_MODE = "fileViewMode"
 	}
 
 	private inline fun SharedPreferences.edit(operation: (SharedPreferences.Editor) -> Unit) {

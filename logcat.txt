@@ -1,0 +1,1556 @@
+08-10 10:04:35.745  9281  9281 D BrowseFilesAdapter: setViewMode() called - old: LIST, new: GRID
+08-10 10:04:35.745  9281  9281 D BrowseFilesAdapter: ViewMode changed to: GRID, calling notifyDataSetChanged()
+08-10 10:04:35.851  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:35.852  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:35.852  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{1ac6e53 V.E...... ......I. 0,0-0,0}
+08-10 10:04:35.852  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:35.852  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:35.852  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:35.852  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:35.852  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:35.852  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:35.852  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:35.852  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:35.852  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: 00-自分専用
+08-10 10:04:35.852  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: 00-自分専用
+08-10 10:04:35.852  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: 00-自分専用, gridBinding: true
+08-10 10:04:35.852  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:35.853  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: 00-自分専用
+08-10 10:04:35.853  9281  9281 D BrowseFilesAdapter: Set folder text to: FOLDER: 00-自分専用
+08-10 10:04:35.853  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:35.853  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: 00-自分専用
+08-10 10:04:35.856  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:35.857  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:35.857  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{4b7fbc1 V.E...... ......I. 0,0-0,0}
+08-10 10:04:35.857  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:35.857  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:35.857  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:35.857  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:35.857  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:35.857  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:35.857  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:35.857  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:35.857  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: 2025-01
+08-10 10:04:35.857  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: 2025-01
+08-10 10:04:35.857  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: 2025-01, gridBinding: true
+08-10 10:04:35.857  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:35.857  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: 2025-01
+08-10 10:04:35.857  9281  9281 D BrowseFilesAdapter: Set folder text to: FOLDER: 2025-01
+08-10 10:04:35.857  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:35.857  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: 2025-01
+08-10 10:04:35.860  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:35.862  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:35.862  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{6d9e0c0 V.E...... ......I. 0,0-0,0}
+08-10 10:04:35.862  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:35.862  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:35.862  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:35.862  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:35.862  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:35.862  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:35.862  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:35.862  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:35.862  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: 2025-03
+08-10 10:04:35.862  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: 2025-03
+08-10 10:04:35.862  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: 2025-03, gridBinding: true
+08-10 10:04:35.862  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:35.862  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: 2025-03
+08-10 10:04:35.862  9281  9281 D BrowseFilesAdapter: Set folder text to: FOLDER: 2025-03
+08-10 10:04:35.862  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:35.862  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: 2025-03
+08-10 10:04:35.867  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:35.868  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:35.868  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{afa6977 V.E...... ......I. 0,0-0,0}
+08-10 10:04:35.868  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:35.868  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:35.868  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:35.868  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:35.868  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:35.868  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:35.868  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:35.868  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:35.868  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: 2025-04
+08-10 10:04:35.868  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: 2025-04
+08-10 10:04:35.868  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: 2025-04, gridBinding: true
+08-10 10:04:35.868  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:35.869  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: 2025-04
+08-10 10:04:35.869  9281  9281 D BrowseFilesAdapter: Set folder text to: FOLDER: 2025-04
+08-10 10:04:35.869  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:35.869  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: 2025-04
+08-10 10:04:35.871  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:35.872  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:35.872  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{866074e V.E...... ......I. 0,0-0,0}
+08-10 10:04:35.872  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:35.872  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:35.872  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:35.872  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:35.872  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:35.872  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:35.872  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:35.872  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:35.872  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: 2025-06
+08-10 10:04:35.872  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: 2025-06
+08-10 10:04:35.872  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: 2025-06, gridBinding: true
+08-10 10:04:35.872  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:35.872  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: 2025-06
+08-10 10:04:35.872  9281  9281 D BrowseFilesAdapter: Set folder text to: FOLDER: 2025-06
+08-10 10:04:35.872  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:35.872  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: 2025-06
+08-10 10:04:35.875  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:35.875  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:35.875  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{a2fd181 V.E...... ......I. 0,0-0,0}
+08-10 10:04:35.875  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:35.875  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:35.875  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:35.875  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:35.875  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:35.875  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:35.875  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:35.875  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:35.875  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: 2025-07
+08-10 10:04:35.875  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: 2025-07
+08-10 10:04:35.875  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: 2025-07, gridBinding: true
+08-10 10:04:35.875  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:35.875  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: 2025-07
+08-10 10:04:35.876  9281  9281 D BrowseFilesAdapter: Set folder text to: FOLDER: 2025-07
+08-10 10:04:35.876  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:35.876  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: 2025-07
+08-10 10:04:35.880  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:35.881  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:35.881  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{a90860c V.E...... ......I. 0,0-0,0}
+08-10 10:04:35.881  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:35.881  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:35.881  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:35.881  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:35.881  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:35.881  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:35.881  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:35.881  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:35.881  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: 2025-08
+08-10 10:04:35.881  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: 2025-08
+08-10 10:04:35.881  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: 2025-08, gridBinding: true
+08-10 10:04:35.881  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:35.881  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: 2025-08
+08-10 10:04:35.881  9281  9281 D BrowseFilesAdapter: Set folder text to: FOLDER: 2025-08
+08-10 10:04:35.881  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:35.881  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: 2025-08
+08-10 10:04:38.339  9281  9281 D BrowseFilesAdapter: setViewMode() called - old: GRID, new: LIST
+08-10 10:04:38.339  9281  9281 D BrowseFilesAdapter: ViewMode changed to: LIST, calling notifyDataSetChanged()
+08-10 10:04:38.373  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 0, node: 00-自分専用
+08-10 10:04:38.373  9281  9281 D BrowseFilesAdapter: Calling internalBind for: 00-自分専用
+08-10 10:04:38.384  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 0, node: 2025-01
+08-10 10:04:38.384  9281  9281 D BrowseFilesAdapter: Calling internalBind for: 2025-01
+08-10 10:04:38.393  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 0, node: 2025-03
+08-10 10:04:38.394  9281  9281 D BrowseFilesAdapter: Calling internalBind for: 2025-03
+08-10 10:04:38.403  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 0, node: 2025-04
+08-10 10:04:38.404  9281  9281 D BrowseFilesAdapter: Calling internalBind for: 2025-04
+08-10 10:04:38.412  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 0, node: 2025-06
+08-10 10:04:38.412  9281  9281 D BrowseFilesAdapter: Calling internalBind for: 2025-06
+08-10 10:04:38.419  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 0, node: 2025-07
+08-10 10:04:38.419  9281  9281 D BrowseFilesAdapter: Calling internalBind for: 2025-07
+08-10 10:04:38.427  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 0, node: 2025-08
+08-10 10:04:38.427  9281  9281 D BrowseFilesAdapter: Calling internalBind for: 2025-08
+08-10 10:04:39.642  9281  9281 D BrowseFilesAdapter: setViewMode() called - old: LIST, new: GRID
+08-10 10:04:39.642  9281  9281 D BrowseFilesAdapter: ViewMode changed to: GRID, calling notifyDataSetChanged()
+08-10 10:04:39.674  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: 00-自分専用
+08-10 10:04:39.674  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: 00-自分専用
+08-10 10:04:39.674  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: 00-自分専用, gridBinding: true
+08-10 10:04:39.674  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:39.675  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: 00-自分専用
+08-10 10:04:39.675  9281  9281 D BrowseFilesAdapter: Set folder text to: FOLDER: 00-自分専用
+08-10 10:04:39.675  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:39.675  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: 00-自分専用
+08-10 10:04:39.675  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: 2025-01
+08-10 10:04:39.675  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: 2025-01
+08-10 10:04:39.675  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: 2025-01, gridBinding: true
+08-10 10:04:39.675  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:39.676  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: 2025-01
+08-10 10:04:39.676  9281  9281 D BrowseFilesAdapter: Set folder text to: FOLDER: 2025-01
+08-10 10:04:39.676  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:39.676  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: 2025-01
+08-10 10:04:39.676  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: 2025-03
+08-10 10:04:39.676  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: 2025-03
+08-10 10:04:39.676  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: 2025-03, gridBinding: true
+08-10 10:04:39.676  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:39.676  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: 2025-03
+08-10 10:04:39.677  9281  9281 D BrowseFilesAdapter: Set folder text to: FOLDER: 2025-03
+08-10 10:04:39.677  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:39.677  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: 2025-03
+08-10 10:04:39.680  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: 2025-04
+08-10 10:04:39.680  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: 2025-04
+08-10 10:04:39.680  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: 2025-04, gridBinding: true
+08-10 10:04:39.680  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:39.681  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: 2025-04
+08-10 10:04:39.681  9281  9281 D BrowseFilesAdapter: Set folder text to: FOLDER: 2025-04
+08-10 10:04:39.681  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:39.681  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: 2025-04
+08-10 10:04:39.681  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: 2025-06
+08-10 10:04:39.681  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: 2025-06
+08-10 10:04:39.681  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: 2025-06, gridBinding: true
+08-10 10:04:39.681  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:39.682  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: 2025-06
+08-10 10:04:39.682  9281  9281 D BrowseFilesAdapter: Set folder text to: FOLDER: 2025-06
+08-10 10:04:39.682  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:39.682  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: 2025-06
+08-10 10:04:39.692  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:39.694  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:39.694  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{47e5cd0 V.E...... ......I. 0,0-0,0}
+08-10 10:04:39.694  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:39.694  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:39.694  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:39.694  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:39.694  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:39.694  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:39.694  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:39.694  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:39.694  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: 2025-07
+08-10 10:04:39.694  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: 2025-07
+08-10 10:04:39.694  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: 2025-07, gridBinding: true
+08-10 10:04:39.694  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:39.695  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: 2025-07
+08-10 10:04:39.695  9281  9281 D BrowseFilesAdapter: Set folder text to: FOLDER: 2025-07
+08-10 10:04:39.695  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:39.695  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: 2025-07
+08-10 10:04:39.708  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:39.711  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:39.711  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{e0148f5 V.E...... ......I. 0,0-0,0}
+08-10 10:04:39.711  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:39.711  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:39.711  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:39.711  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:39.711  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:39.711  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:39.711  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:39.711  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:39.711  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: 2025-08
+08-10 10:04:39.711  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: 2025-08
+08-10 10:04:39.711  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: 2025-08, gridBinding: true
+08-10 10:04:39.711  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:39.712  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: 2025-08
+08-10 10:04:39.712  9281  9281 D BrowseFilesAdapter: Set folder text to: FOLDER: 2025-08
+08-10 10:04:39.712  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:39.712  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: 2025-08
+08-10 10:04:40.362  9281  9281 D BrowseFilesAdapter: setViewMode() called - old: LIST, new: GRID
+08-10 10:04:40.362  9281  9281 D BrowseFilesAdapter: ViewMode changed to: GRID, calling notifyDataSetChanged()
+08-10 10:04:40.626  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:40.628  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:40.628  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{5551922 V.E...... ......I. 0,0-0,0}
+08-10 10:04:40.628  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:40.628  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:40.628  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:40.628  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:40.628  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:40.628  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:40.628  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:40.628  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:40.628  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_21-11-55.219_4320x7680.png
+08-10 10:04:40.628  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_21-11-55.219_4320x7680.png
+08-10 10:04:40.629  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_21-11-55.219_4320x7680.png, gridBinding: true
+08-10 10:04:40.629  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:40.630  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_21-11-55.219_4320x7680.png
+08-10 10:04:40.630  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:40.630  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:40.630  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_21-11-55.219_4320x7680.png
+08-10 10:04:40.637  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:40.639  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:40.639  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{8576688 V.E...... ......I. 0,0-0,0}
+08-10 10:04:40.639  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:40.639  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:40.639  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:40.639  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:40.639  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:40.639  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:40.639  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:40.639  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:40.639  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_21-41-55.470_7680x4320.png
+08-10 10:04:40.639  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_21-41-55.470_7680x4320.png
+08-10 10:04:40.639  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_21-41-55.470_7680x4320.png, gridBinding: true
+08-10 10:04:40.639  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:40.640  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_21-41-55.470_7680x4320.png
+08-10 10:04:40.640  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:40.640  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:40.640  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_21-41-55.470_7680x4320.png
+08-10 10:04:40.646  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:40.648  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:40.648  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{c87ba3 V.E...... ......I. 0,0-0,0}
+08-10 10:04:40.648  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:40.648  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:40.648  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:40.648  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:40.648  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:40.648  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:40.648  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:40.648  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:40.648  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_21-41-59.807_7680x4320.png
+08-10 10:04:40.648  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_21-41-59.807_7680x4320.png
+08-10 10:04:40.648  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_21-41-59.807_7680x4320.png, gridBinding: true
+08-10 10:04:40.648  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:40.648  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_21-41-59.807_7680x4320.png
+08-10 10:04:40.649  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:40.649  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:40.649  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_21-41-59.807_7680x4320.png
+08-10 10:04:40.660  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:40.662  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:40.662  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{e7f2c56 V.E...... ......I. 0,0-0,0}
+08-10 10:04:40.662  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:40.662  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:40.662  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:40.662  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:40.662  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:40.662  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:40.662  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:40.662  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:40.662  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_21-42-09.992_7680x4320.png
+08-10 10:04:40.662  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_21-42-09.992_7680x4320.png
+08-10 10:04:40.662  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_21-42-09.992_7680x4320.png, gridBinding: true
+08-10 10:04:40.662  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:40.663  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_21-42-09.992_7680x4320.png
+08-10 10:04:40.663  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:40.663  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:40.663  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_21-42-09.992_7680x4320.png
+08-10 10:04:40.667  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:40.668  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:40.668  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{25722a9 V.E...... ......I. 0,0-0,0}
+08-10 10:04:40.668  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:40.668  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:40.668  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:40.668  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:40.668  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:40.668  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:40.668  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:40.668  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:40.668  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_21-42-15.468_7680x4320.png
+08-10 10:04:40.668  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_21-42-15.468_7680x4320.png
+08-10 10:04:40.668  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_21-42-15.468_7680x4320.png, gridBinding: true
+08-10 10:04:40.668  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:40.668  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_21-42-15.468_7680x4320.png
+08-10 10:04:40.668  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:40.668  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:40.668  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_21-42-15.468_7680x4320.png
+08-10 10:04:40.671  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:40.672  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:40.672  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{a9adb48 V.E...... ......I. 0,0-0,0}
+08-10 10:04:40.672  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:40.672  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:40.672  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:40.672  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:40.672  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:40.672  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:40.672  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:40.672  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:40.672  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_21-43-44.774_7680x4320.png
+08-10 10:04:40.672  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_21-43-44.774_7680x4320.png
+08-10 10:04:40.672  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_21-43-44.774_7680x4320.png, gridBinding: true
+08-10 10:04:40.672  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:40.672  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_21-43-44.774_7680x4320.png
+08-10 10:04:40.672  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:40.672  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:40.672  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_21-43-44.774_7680x4320.png
+08-10 10:04:40.678  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:40.678  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:40.678  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{5873c9f V.E...... ......I. 0,0-0,0}
+08-10 10:04:40.678  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:40.678  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:40.678  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:40.678  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:40.678  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:40.678  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:40.678  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:40.678  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:40.678  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_21-43-49.302_7680x4320.png
+08-10 10:04:40.678  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_21-43-49.302_7680x4320.png
+08-10 10:04:40.678  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_21-43-49.302_7680x4320.png, gridBinding: true
+08-10 10:04:40.678  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:40.679  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_21-43-49.302_7680x4320.png
+08-10 10:04:40.679  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:40.679  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:40.679  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_21-43-49.302_7680x4320.png
+08-10 10:04:40.681  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:40.682  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:40.682  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{4e41f16 V.E...... ......I. 0,0-0,0}
+08-10 10:04:40.682  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:40.682  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:40.682  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:40.682  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:40.682  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:40.682  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:40.682  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:40.682  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:40.682  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_21-46-30.995_7680x4320.png
+08-10 10:04:40.682  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_21-46-30.995_7680x4320.png
+08-10 10:04:40.682  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_21-46-30.995_7680x4320.png, gridBinding: true
+08-10 10:04:40.682  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:40.682  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_21-46-30.995_7680x4320.png
+08-10 10:04:40.682  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:40.682  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:40.682  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_21-46-30.995_7680x4320.png
+08-10 10:04:40.684  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:40.685  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:40.685  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{ec42069 V.E...... ......I. 0,0-0,0}
+08-10 10:04:40.685  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:40.685  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:40.685  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:40.685  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:40.685  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:40.685  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:40.685  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:40.685  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:40.685  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_21-46-40.192_7680x4320.png
+08-10 10:04:40.685  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_21-46-40.192_7680x4320.png
+08-10 10:04:40.685  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_21-46-40.192_7680x4320.png, gridBinding: true
+08-10 10:04:40.685  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:40.685  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_21-46-40.192_7680x4320.png
+08-10 10:04:40.685  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:40.685  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:40.685  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_21-46-40.192_7680x4320.png
+08-10 10:04:40.690  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:40.690  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:40.690  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{64f0d14 V.E...... ......I. 0,0-0,0}
+08-10 10:04:40.690  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:40.690  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:40.690  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:40.690  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:40.690  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:40.690  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:40.690  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:40.690  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:40.691  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_21-46-52.261_7680x4320.png
+08-10 10:04:40.691  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_21-46-52.261_7680x4320.png
+08-10 10:04:40.691  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_21-46-52.261_7680x4320.png, gridBinding: true
+08-10 10:04:40.691  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:40.691  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_21-46-52.261_7680x4320.png
+08-10 10:04:40.691  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:40.691  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:40.691  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_21-46-52.261_7680x4320.png
+08-10 10:04:40.693  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:40.694  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:40.694  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{9a205f V.E...... ......I. 0,0-0,0}
+08-10 10:04:40.694  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:40.694  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:40.694  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:40.694  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:40.694  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:40.694  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:40.694  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:40.694  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:40.694  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_21-50-02.939_7680x4320.png
+08-10 10:04:40.694  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_21-50-02.939_7680x4320.png
+08-10 10:04:40.694  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_21-50-02.939_7680x4320.png, gridBinding: true
+08-10 10:04:40.694  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:40.694  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_21-50-02.939_7680x4320.png
+08-10 10:04:40.694  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:40.694  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:40.694  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_21-50-02.939_7680x4320.png
+08-10 10:04:40.697  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:40.697  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:40.697  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{2d9d1d6 V.E...... ......I. 0,0-0,0}
+08-10 10:04:40.697  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:40.697  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:40.697  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:40.697  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:40.697  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:40.697  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:40.697  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:40.697  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:40.697  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_21-50-11.195_7680x4320.png
+08-10 10:04:40.697  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_21-50-11.195_7680x4320.png
+08-10 10:04:40.697  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_21-50-11.195_7680x4320.png, gridBinding: true
+08-10 10:04:40.697  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:40.698  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_21-50-11.195_7680x4320.png
+08-10 10:04:40.698  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:40.698  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:40.698  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_21-50-11.195_7680x4320.png
+08-10 10:04:40.702  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:40.703  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:40.703  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{b9d88c5 V.E...... ......I. 0,0-0,0}
+08-10 10:04:40.703  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:40.703  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:40.703  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:40.703  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:40.703  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:40.703  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:40.703  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:40.703  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:40.703  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_21-50-23.586_7680x4320.png
+08-10 10:04:40.703  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_21-50-23.586_7680x4320.png
+08-10 10:04:40.703  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_21-50-23.586_7680x4320.png, gridBinding: true
+08-10 10:04:40.703  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:40.703  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_21-50-23.586_7680x4320.png
+08-10 10:04:40.703  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:40.703  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:40.703  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_21-50-23.586_7680x4320.png
+08-10 10:04:40.706  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:40.706  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:40.706  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{3e1edd4 V.E...... ......I. 0,0-0,0}
+08-10 10:04:40.706  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:40.706  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:40.706  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:40.706  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:40.706  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:40.706  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:40.706  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:40.706  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:40.706  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_21-50-52.996_7680x4320.png
+08-10 10:04:40.706  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_21-50-52.996_7680x4320.png
+08-10 10:04:40.706  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_21-50-52.996_7680x4320.png, gridBinding: true
+08-10 10:04:40.706  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:40.707  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_21-50-52.996_7680x4320.png
+08-10 10:04:40.707  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:40.707  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:40.707  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_21-50-52.996_7680x4320.png
+08-10 10:04:40.709  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:40.709  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:40.710  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{b16c41f V.E...... ......I. 0,0-0,0}
+08-10 10:04:40.710  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:40.710  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:40.710  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:40.710  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:40.710  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:40.710  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:40.710  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:40.710  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:40.710  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_21-51-23.904_7680x4320.png
+08-10 10:04:40.710  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_21-51-23.904_7680x4320.png
+08-10 10:04:40.710  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_21-51-23.904_7680x4320.png, gridBinding: true
+08-10 10:04:40.710  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:40.710  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_21-51-23.904_7680x4320.png
+08-10 10:04:40.710  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:40.710  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:40.710  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_21-51-23.904_7680x4320.png
+08-10 10:04:40.715  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:40.715  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:40.715  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{4f84b82 V.E...... ......I. 0,0-0,0}
+08-10 10:04:40.715  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:40.715  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:40.715  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:40.715  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:40.715  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:40.715  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:40.715  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:40.715  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:40.715  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_21-51-25.724_7680x4320.png
+08-10 10:04:40.715  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_21-51-25.724_7680x4320.png
+08-10 10:04:40.715  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_21-51-25.724_7680x4320.png, gridBinding: true
+08-10 10:04:40.715  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:40.716  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_21-51-25.724_7680x4320.png
+08-10 10:04:40.716  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:40.716  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:40.716  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_21-51-25.724_7680x4320.png
+08-10 10:04:40.718  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:40.719  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:40.719  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{fec0285 V.E...... ......I. 0,0-0,0}
+08-10 10:04:40.719  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:40.719  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:40.719  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:40.719  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:40.719  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:40.719  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:40.719  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:40.719  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:40.719  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_21-51-29.669_4320x7680.png
+08-10 10:04:40.719  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_21-51-29.669_4320x7680.png
+08-10 10:04:40.719  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_21-51-29.669_4320x7680.png, gridBinding: true
+08-10 10:04:40.719  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:40.719  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_21-51-29.669_4320x7680.png
+08-10 10:04:40.719  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:40.719  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:40.719  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_21-51-29.669_4320x7680.png
+08-10 10:04:40.721  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:40.722  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:40.722  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{fa38e94 V.E...... ......I. 0,0-0,0}
+08-10 10:04:40.722  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:40.722  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:40.722  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:40.722  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:40.722  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:40.722  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:40.722  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:40.722  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:40.722  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_21-51-37.876_7680x4320.png
+08-10 10:04:40.722  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_21-51-37.876_7680x4320.png
+08-10 10:04:40.722  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_21-51-37.876_7680x4320.png, gridBinding: true
+08-10 10:04:40.722  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:40.722  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_21-51-37.876_7680x4320.png
+08-10 10:04:40.722  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:40.722  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:40.722  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_21-51-37.876_7680x4320.png
+08-10 10:04:40.727  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:40.728  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:40.728  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{28fadb V.E...... ......I. 0,0-0,0}
+08-10 10:04:40.728  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:40.728  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:40.728  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:40.728  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:40.728  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:40.728  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:40.728  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:40.728  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:40.728  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_21-51-44.125_7680x4320.png
+08-10 10:04:40.728  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_21-51-44.125_7680x4320.png
+08-10 10:04:40.728  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_21-51-44.125_7680x4320.png, gridBinding: true
+08-10 10:04:40.728  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:40.728  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_21-51-44.125_7680x4320.png
+08-10 10:04:40.728  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:40.728  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:40.728  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_21-51-44.125_7680x4320.png
+08-10 10:04:40.730  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:40.731  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:40.731  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{1264a42 V.E...... ......I. 0,0-0,0}
+08-10 10:04:40.731  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:40.731  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:40.731  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:40.731  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:40.731  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:40.731  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:40.731  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:40.731  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:40.731  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_21-52-30.186_4320x7680.png
+08-10 10:04:40.731  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_21-52-30.186_4320x7680.png
+08-10 10:04:40.731  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_21-52-30.186_4320x7680.png, gridBinding: true
+08-10 10:04:40.731  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:40.731  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_21-52-30.186_4320x7680.png
+08-10 10:04:40.731  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:40.731  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:40.731  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_21-52-30.186_4320x7680.png
+08-10 10:04:40.733  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:40.734  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:40.734  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{42a3c45 V.E...... ......I. 0,0-0,0}
+08-10 10:04:40.734  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:40.734  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:40.734  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:40.734  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:40.734  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:40.734  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:40.734  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:40.734  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:40.734  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_21-54-13.450_7680x4320.png
+08-10 10:04:40.734  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_21-54-13.450_7680x4320.png
+08-10 10:04:40.734  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_21-54-13.450_7680x4320.png, gridBinding: true
+08-10 10:04:40.734  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:40.734  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_21-54-13.450_7680x4320.png
+08-10 10:04:40.735  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:40.735  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:40.735  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_21-54-13.450_7680x4320.png
+08-10 10:04:40.739  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:40.740  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:40.740  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{32b8b20 V.E...... ......I. 0,0-0,0}
+08-10 10:04:40.740  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:40.740  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:40.740  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:40.740  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:40.740  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:40.740  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:40.740  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:40.740  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:40.740  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_21-55-37.948_4320x7680.png
+08-10 10:04:40.740  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_21-55-37.948_4320x7680.png
+08-10 10:04:40.740  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_21-55-37.948_4320x7680.png, gridBinding: true
+08-10 10:04:40.740  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:40.740  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_21-55-37.948_4320x7680.png
+08-10 10:04:40.740  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:40.740  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:40.740  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_21-55-37.948_4320x7680.png
+08-10 10:04:40.742  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:40.743  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:40.743  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{a427a9b V.E...... ......I. 0,0-0,0}
+08-10 10:04:40.743  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:40.743  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:40.743  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:40.743  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:40.743  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:40.743  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:40.743  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:40.743  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:40.743  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_21-55-59.635_4320x7680.png
+08-10 10:04:40.743  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_21-55-59.635_4320x7680.png
+08-10 10:04:40.743  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_21-55-59.635_4320x7680.png, gridBinding: true
+08-10 10:04:40.743  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:40.743  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_21-55-59.635_4320x7680.png
+08-10 10:04:40.743  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:40.743  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:40.743  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_21-55-59.635_4320x7680.png
+08-10 10:04:40.745  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:40.746  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:40.746  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{ad10902 V.E...... ......I. 0,0-0,0}
+08-10 10:04:40.746  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:40.746  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:40.746  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:40.746  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:40.746  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:40.746  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:40.746  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:40.746  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:40.746  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_21-56-49.347_7680x4320.png
+08-10 10:04:40.746  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_21-56-49.347_7680x4320.png
+08-10 10:04:40.746  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_21-56-49.347_7680x4320.png, gridBinding: true
+08-10 10:04:40.746  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:40.746  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_21-56-49.347_7680x4320.png
+08-10 10:04:40.746  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:40.746  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:40.746  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_21-56-49.347_7680x4320.png
+08-10 10:04:40.751  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:40.751  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:40.751  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{4698061 V.E...... ......I. 0,0-0,0}
+08-10 10:04:40.751  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:40.751  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:40.751  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:40.751  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:40.751  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:40.751  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:40.751  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:40.751  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:40.751  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_21-57-08.682_7680x4320.png
+08-10 10:04:40.751  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_21-57-08.682_7680x4320.png
+08-10 10:04:40.751  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_21-57-08.682_7680x4320.png, gridBinding: true
+08-10 10:04:40.751  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:40.752  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_21-57-08.682_7680x4320.png
+08-10 10:04:40.752  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:40.752  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:40.752  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_21-57-08.682_7680x4320.png
+08-10 10:04:40.754  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:40.755  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:40.755  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{87157e0 V.E...... ......I. 0,0-0,0}
+08-10 10:04:40.755  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:40.755  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:40.755  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:40.755  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:40.755  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:40.755  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:40.755  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:40.755  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:40.755  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_21-58-12.115_4320x7680.png
+08-10 10:04:40.755  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_21-58-12.115_4320x7680.png
+08-10 10:04:40.755  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_21-58-12.115_4320x7680.png, gridBinding: true
+08-10 10:04:40.755  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:40.755  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_21-58-12.115_4320x7680.png
+08-10 10:04:40.755  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:40.755  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:40.755  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_21-58-12.115_4320x7680.png
+08-10 10:04:40.757  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:40.758  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:40.758  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{9c1ba5b V.E...... ......I. 0,0-0,0}
+08-10 10:04:40.758  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:40.758  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:40.758  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:40.758  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:40.758  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:40.758  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:40.758  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:40.758  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:40.758  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_21-58-15.225_4320x7680.png
+08-10 10:04:40.758  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_21-58-15.225_4320x7680.png
+08-10 10:04:40.758  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_21-58-15.225_4320x7680.png, gridBinding: true
+08-10 10:04:40.758  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:40.758  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_21-58-15.225_4320x7680.png
+08-10 10:04:40.758  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:40.758  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:40.758  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_21-58-15.225_4320x7680.png
+08-10 10:04:40.762  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:40.763  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:40.763  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{242fb6e V.E...... ......I. 0,0-0,0}
+08-10 10:04:40.763  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:40.763  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:40.763  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:40.763  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:40.763  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:40.763  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:40.763  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:40.763  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:40.763  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_21-58-18.766_4320x7680.png
+08-10 10:04:40.763  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_21-58-18.766_4320x7680.png
+08-10 10:04:40.763  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_21-58-18.766_4320x7680.png, gridBinding: true
+08-10 10:04:40.763  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:40.763  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_21-58-18.766_4320x7680.png
+08-10 10:04:40.763  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:40.763  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:40.763  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_21-58-18.766_4320x7680.png
+08-10 10:04:40.765  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:40.766  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:40.766  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{946f621 V.E...... ......I. 0,0-0,0}
+08-10 10:04:40.766  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:40.766  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:40.766  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:40.766  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:40.766  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:40.766  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:40.766  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:40.766  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:40.766  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_21-58-50.049_4320x7680.png
+08-10 10:04:40.766  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_21-58-50.049_4320x7680.png
+08-10 10:04:40.766  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_21-58-50.049_4320x7680.png, gridBinding: true
+08-10 10:04:40.766  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:40.766  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_21-58-50.049_4320x7680.png
+08-10 10:04:40.766  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:40.766  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:40.766  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_21-58-50.049_4320x7680.png
+08-10 10:04:40.769  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:40.769  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:40.769  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{eb1e4a0 V.E...... ......I. 0,0-0,0}
+08-10 10:04:40.769  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:40.769  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:40.769  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:40.769  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:40.769  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:40.769  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:40.769  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:40.769  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:40.769  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_21-59-14.672_4320x7680.png
+08-10 10:04:40.769  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_21-59-14.672_4320x7680.png
+08-10 10:04:40.769  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_21-59-14.672_4320x7680.png, gridBinding: true
+08-10 10:04:40.769  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:40.769  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_21-59-14.672_4320x7680.png
+08-10 10:04:40.770  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:40.770  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:40.770  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_21-59-14.672_4320x7680.png
+08-10 10:04:40.773  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:40.774  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:40.774  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{16c22d7 V.E...... ......I. 0,0-0,0}
+08-10 10:04:40.774  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:40.774  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:40.774  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:40.774  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:40.774  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:40.774  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:40.774  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:40.774  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:40.774  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_22-01-43.938_7680x4320.png
+08-10 10:04:40.774  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_22-01-43.938_7680x4320.png
+08-10 10:04:40.774  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_22-01-43.938_7680x4320.png, gridBinding: true
+08-10 10:04:40.774  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:40.774  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_22-01-43.938_7680x4320.png
+08-10 10:04:40.774  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:40.774  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:40.774  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_22-01-43.938_7680x4320.png
+08-10 10:04:40.776  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:40.777  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:40.777  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{898c62e V.E...... ......I. 0,0-0,0}
+08-10 10:04:40.777  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:40.777  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:40.777  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:40.777  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:40.777  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:40.777  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:40.777  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:40.777  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:40.777  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_22-01-52.237_7680x4320.png
+08-10 10:04:40.777  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_22-01-52.237_7680x4320.png
+08-10 10:04:40.777  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_22-01-52.237_7680x4320.png, gridBinding: true
+08-10 10:04:40.777  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:40.777  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_22-01-52.237_7680x4320.png
+08-10 10:04:40.777  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:40.777  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:40.777  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_22-01-52.237_7680x4320.png
+08-10 10:04:40.779  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:40.780  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:40.780  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{3702be1 V.E...... ......I. 0,0-0,0}
+08-10 10:04:40.780  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:40.780  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:40.780  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:40.780  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:40.780  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:40.780  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:40.780  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:40.780  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:40.780  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_22-02-00.234_7680x4320.png
+08-10 10:04:40.780  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_22-02-00.234_7680x4320.png
+08-10 10:04:40.780  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_22-02-00.234_7680x4320.png, gridBinding: true
+08-10 10:04:40.780  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:40.780  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_22-02-00.234_7680x4320.png
+08-10 10:04:40.780  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:40.780  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:40.780  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_22-02-00.234_7680x4320.png
+08-10 10:04:40.784  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:40.784  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:40.784  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{14037ec V.E...... ......I. 0,0-0,0}
+08-10 10:04:40.784  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:40.784  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:40.784  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:40.784  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:40.784  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:40.784  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:40.784  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:40.784  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:40.784  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_22-06-45.004_7680x4320.png
+08-10 10:04:40.784  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_22-06-45.004_7680x4320.png
+08-10 10:04:40.784  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_22-06-45.004_7680x4320.png, gridBinding: true
+08-10 10:04:40.784  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:40.785  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_22-06-45.004_7680x4320.png
+08-10 10:04:40.785  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:40.785  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:40.785  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_22-06-45.004_7680x4320.png
+08-10 10:04:40.787  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:40.787  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:40.787  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{eebfe97 V.E...... ......I. 0,0-0,0}
+08-10 10:04:40.787  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:40.787  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:40.787  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:40.787  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:40.787  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:40.787  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:40.787  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:40.787  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:40.787  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_22-06-48.095_7680x4320.png
+08-10 10:04:40.787  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_22-06-48.095_7680x4320.png
+08-10 10:04:40.787  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_22-06-48.095_7680x4320.png, gridBinding: true
+08-10 10:04:40.787  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:40.788  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_22-06-48.095_7680x4320.png
+08-10 10:04:40.788  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:40.788  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:40.788  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_22-06-48.095_7680x4320.png
+08-10 10:04:40.790  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:40.790  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:40.790  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{f1750ee V.E...... ......I. 0,0-0,0}
+08-10 10:04:40.790  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:40.790  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:40.790  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:40.790  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:40.790  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:40.790  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:40.790  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:40.790  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:40.790  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_22-07-27.082_7680x4320.png
+08-10 10:04:40.790  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_22-07-27.082_7680x4320.png
+08-10 10:04:40.790  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_22-07-27.082_7680x4320.png, gridBinding: true
+08-10 10:04:40.790  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:40.790  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_22-07-27.082_7680x4320.png
+08-10 10:04:40.791  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:40.791  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:40.791  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_22-07-27.082_7680x4320.png
+08-10 10:04:42.144  9281  9281 D BrowseFilesAdapter: setViewMode() called - old: GRID, new: LIST
+08-10 10:04:42.144  9281  9281 D BrowseFilesAdapter: ViewMode changed to: LIST, calling notifyDataSetChanged()
+08-10 10:04:42.188  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 0, node: VRChat_2025-08-03_21-11-55.219_4320x7680.png
+08-10 10:04:42.188  9281  9281 D BrowseFilesAdapter: Calling internalBind for: VRChat_2025-08-03_21-11-55.219_4320x7680.png
+08-10 10:04:42.204  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 0, node: VRChat_2025-08-03_21-41-55.470_7680x4320.png
+08-10 10:04:42.205  9281  9281 D BrowseFilesAdapter: Calling internalBind for: VRChat_2025-08-03_21-41-55.470_7680x4320.png
+08-10 10:04:42.220  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 0, node: VRChat_2025-08-03_21-41-59.807_7680x4320.png
+08-10 10:04:42.220  9281  9281 D BrowseFilesAdapter: Calling internalBind for: VRChat_2025-08-03_21-41-59.807_7680x4320.png
+08-10 10:04:42.232  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 0, node: VRChat_2025-08-03_21-42-09.992_7680x4320.png
+08-10 10:04:42.232  9281  9281 D BrowseFilesAdapter: Calling internalBind for: VRChat_2025-08-03_21-42-09.992_7680x4320.png
+08-10 10:04:42.243  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 0, node: VRChat_2025-08-03_21-42-15.468_7680x4320.png
+08-10 10:04:42.243  9281  9281 D BrowseFilesAdapter: Calling internalBind for: VRChat_2025-08-03_21-42-15.468_7680x4320.png
+08-10 10:04:42.254  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 0, node: VRChat_2025-08-03_21-43-44.774_7680x4320.png
+08-10 10:04:42.254  9281  9281 D BrowseFilesAdapter: Calling internalBind for: VRChat_2025-08-03_21-43-44.774_7680x4320.png
+08-10 10:04:42.263  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 0, node: VRChat_2025-08-03_21-43-49.302_7680x4320.png
+08-10 10:04:42.263  9281  9281 D BrowseFilesAdapter: Calling internalBind for: VRChat_2025-08-03_21-43-49.302_7680x4320.png
+08-10 10:04:42.272  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 0, node: VRChat_2025-08-03_21-46-30.995_7680x4320.png
+08-10 10:04:42.272  9281  9281 D BrowseFilesAdapter: Calling internalBind for: VRChat_2025-08-03_21-46-30.995_7680x4320.png
+08-10 10:04:42.279  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 0, node: VRChat_2025-08-03_21-46-40.192_7680x4320.png
+08-10 10:04:42.279  9281  9281 D BrowseFilesAdapter: Calling internalBind for: VRChat_2025-08-03_21-46-40.192_7680x4320.png
+08-10 10:04:42.285  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 0, node: VRChat_2025-08-03_21-46-52.261_7680x4320.png
+08-10 10:04:42.285  9281  9281 D BrowseFilesAdapter: Calling internalBind for: VRChat_2025-08-03_21-46-52.261_7680x4320.png
+08-10 10:04:42.288  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 0, node: VRChat_2025-08-03_21-50-02.939_7680x4320.png
+08-10 10:04:42.288  9281  9281 D BrowseFilesAdapter: Calling internalBind for: VRChat_2025-08-03_21-50-02.939_7680x4320.png
+08-10 10:04:42.292  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 0, node: VRChat_2025-08-03_21-50-11.195_7680x4320.png
+08-10 10:04:42.292  9281  9281 D BrowseFilesAdapter: Calling internalBind for: VRChat_2025-08-03_21-50-11.195_7680x4320.png
+08-10 10:04:43.512  9281  9281 D BrowseFilesAdapter: setViewMode() called - old: LIST, new: GRID
+08-10 10:04:43.512  9281  9281 D BrowseFilesAdapter: ViewMode changed to: GRID, calling notifyDataSetChanged()
+08-10 10:04:43.535  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_21-11-55.219_4320x7680.png
+08-10 10:04:43.535  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_21-11-55.219_4320x7680.png
+08-10 10:04:43.535  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_21-11-55.219_4320x7680.png, gridBinding: true
+08-10 10:04:43.535  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:43.537  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_21-11-55.219_4320x7680.png
+08-10 10:04:43.537  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:43.537  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:43.537  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_21-11-55.219_4320x7680.png
+08-10 10:04:43.537  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_21-41-55.470_7680x4320.png
+08-10 10:04:43.537  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_21-41-55.470_7680x4320.png
+08-10 10:04:43.537  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_21-41-55.470_7680x4320.png, gridBinding: true
+08-10 10:04:43.537  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:43.538  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_21-41-55.470_7680x4320.png
+08-10 10:04:43.538  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:43.538  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:43.538  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_21-41-55.470_7680x4320.png
+08-10 10:04:43.538  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_21-41-59.807_7680x4320.png
+08-10 10:04:43.538  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_21-41-59.807_7680x4320.png
+08-10 10:04:43.538  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_21-41-59.807_7680x4320.png, gridBinding: true
+08-10 10:04:43.538  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:43.539  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_21-41-59.807_7680x4320.png
+08-10 10:04:43.539  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:43.539  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:43.539  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_21-41-59.807_7680x4320.png
+08-10 10:04:43.541  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_21-42-09.992_7680x4320.png
+08-10 10:04:43.541  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_21-42-09.992_7680x4320.png
+08-10 10:04:43.541  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_21-42-09.992_7680x4320.png, gridBinding: true
+08-10 10:04:43.541  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:43.541  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_21-42-09.992_7680x4320.png
+08-10 10:04:43.542  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:43.542  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:43.542  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_21-42-09.992_7680x4320.png
+08-10 10:04:43.542  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_21-42-15.468_7680x4320.png
+08-10 10:04:43.542  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_21-42-15.468_7680x4320.png
+08-10 10:04:43.542  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_21-42-15.468_7680x4320.png, gridBinding: true
+08-10 10:04:43.542  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:43.542  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_21-42-15.468_7680x4320.png
+08-10 10:04:43.543  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:43.543  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:43.543  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_21-42-15.468_7680x4320.png
+08-10 10:04:43.552  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:43.554  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:43.554  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{df3cfa1 V.E...... ......I. 0,0-0,0}
+08-10 10:04:43.554  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:43.554  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:43.554  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:43.554  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:43.554  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:43.554  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:43.554  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:43.554  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:43.554  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_21-43-44.774_7680x4320.png
+08-10 10:04:43.554  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_21-43-44.774_7680x4320.png
+08-10 10:04:43.554  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_21-43-44.774_7680x4320.png, gridBinding: true
+08-10 10:04:43.554  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:43.555  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_21-43-44.774_7680x4320.png
+08-10 10:04:43.555  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:43.555  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:43.555  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_21-43-44.774_7680x4320.png
+08-10 10:04:43.568  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:43.570  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:43.570  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{3d47a02 V.E...... ......I. 0,0-0,0}
+08-10 10:04:43.570  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:43.570  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:43.570  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:43.570  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:43.570  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:43.570  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:43.570  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:43.570  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:43.570  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_21-43-49.302_7680x4320.png
+08-10 10:04:43.570  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_21-43-49.302_7680x4320.png
+08-10 10:04:43.570  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_21-43-49.302_7680x4320.png, gridBinding: true
+08-10 10:04:43.570  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:43.571  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_21-43-49.302_7680x4320.png
+08-10 10:04:43.571  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:43.571  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:43.571  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_21-43-49.302_7680x4320.png
+08-10 10:04:43.578  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:43.579  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:43.580  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{dcc6b05 V.E...... ......I. 0,0-0,0}
+08-10 10:04:43.580  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:43.580  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:43.580  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:43.580  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:43.580  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:43.580  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:43.580  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:43.580  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:43.580  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_21-46-30.995_7680x4320.png
+08-10 10:04:43.580  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_21-46-30.995_7680x4320.png
+08-10 10:04:43.580  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_21-46-30.995_7680x4320.png, gridBinding: true
+08-10 10:04:43.580  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:43.580  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_21-46-30.995_7680x4320.png
+08-10 10:04:43.580  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:43.580  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:43.580  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_21-46-30.995_7680x4320.png
+08-10 10:04:43.587  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:43.589  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:43.589  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{9671914 V.E...... ......I. 0,0-0,0}
+08-10 10:04:43.589  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:43.589  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:43.589  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:43.589  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:43.589  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:43.589  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:43.589  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:43.589  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:43.589  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_21-46-40.192_7680x4320.png
+08-10 10:04:43.589  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_21-46-40.192_7680x4320.png
+08-10 10:04:43.589  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_21-46-40.192_7680x4320.png, gridBinding: true
+08-10 10:04:43.589  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:43.589  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_21-46-40.192_7680x4320.png
+08-10 10:04:43.589  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:43.589  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:43.589  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_21-46-40.192_7680x4320.png
+08-10 10:04:43.598  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:43.600  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:43.600  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{db9375b V.E...... ......I. 0,0-0,0}
+08-10 10:04:43.600  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:43.600  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:43.600  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:43.600  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:43.600  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:43.600  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:43.600  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:43.600  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:43.600  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_21-46-52.261_7680x4320.png
+08-10 10:04:43.600  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_21-46-52.261_7680x4320.png
+08-10 10:04:43.600  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_21-46-52.261_7680x4320.png, gridBinding: true
+08-10 10:04:43.600  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:43.600  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_21-46-52.261_7680x4320.png
+08-10 10:04:43.600  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:43.600  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:43.600  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_21-46-52.261_7680x4320.png
+08-10 10:04:43.603  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:43.604  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:43.604  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{f14f8c2 V.E...... ......I. 0,0-0,0}
+08-10 10:04:43.604  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:43.604  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:43.604  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:43.604  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:43.604  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:43.604  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:43.604  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:43.604  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:43.604  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_21-50-02.939_7680x4320.png
+08-10 10:04:43.604  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_21-50-02.939_7680x4320.png
+08-10 10:04:43.604  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_21-50-02.939_7680x4320.png, gridBinding: true
+08-10 10:04:43.604  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:43.604  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_21-50-02.939_7680x4320.png
+08-10 10:04:43.605  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:43.605  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:43.605  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_21-50-02.939_7680x4320.png
+08-10 10:04:43.608  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:43.608  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:43.608  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{ce724c5 V.E...... ......I. 0,0-0,0}
+08-10 10:04:43.608  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:43.608  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:43.608  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:43.608  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:43.608  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:43.608  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:43.608  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:43.608  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:43.608  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_21-50-11.195_7680x4320.png
+08-10 10:04:43.609  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_21-50-11.195_7680x4320.png
+08-10 10:04:43.609  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_21-50-11.195_7680x4320.png, gridBinding: true
+08-10 10:04:43.609  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:43.609  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_21-50-11.195_7680x4320.png
+08-10 10:04:43.609  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:43.609  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:43.609  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_21-50-11.195_7680x4320.png
+08-10 10:04:43.615  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:43.616  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:43.616  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{338ed59 V.E...... ......I. 0,0-0,0}
+08-10 10:04:43.616  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:43.616  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:43.616  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:43.616  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:43.616  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:43.616  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:43.616  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:43.616  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:43.616  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_21-50-23.586_7680x4320.png
+08-10 10:04:43.616  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_21-50-23.586_7680x4320.png
+08-10 10:04:43.616  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_21-50-23.586_7680x4320.png, gridBinding: true
+08-10 10:04:43.616  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:43.616  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_21-50-23.586_7680x4320.png
+08-10 10:04:43.616  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:43.616  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:43.616  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_21-50-23.586_7680x4320.png
+08-10 10:04:43.619  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:43.620  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:43.620  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{a2ae0b8 V.E...... ......I. 0,0-0,0}
+08-10 10:04:43.620  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:43.620  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:43.620  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:43.620  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:43.620  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:43.620  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:43.620  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:43.620  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:43.620  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_21-50-52.996_7680x4320.png
+08-10 10:04:43.620  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_21-50-52.996_7680x4320.png
+08-10 10:04:43.620  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_21-50-52.996_7680x4320.png, gridBinding: true
+08-10 10:04:43.620  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:43.620  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_21-50-52.996_7680x4320.png
+08-10 10:04:43.620  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:43.620  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:43.620  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_21-50-52.996_7680x4320.png
+08-10 10:04:43.623  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:43.624  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:43.624  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{6776e93 V.E...... ......I. 0,0-0,0}
+08-10 10:04:43.624  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:43.624  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:43.624  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:43.624  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:43.624  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:43.624  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:43.624  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:43.624  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:43.624  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_21-51-23.904_7680x4320.png
+08-10 10:04:43.624  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_21-51-23.904_7680x4320.png
+08-10 10:04:43.624  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_21-51-23.904_7680x4320.png, gridBinding: true
+08-10 10:04:43.624  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:43.625  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_21-51-23.904_7680x4320.png
+08-10 10:04:43.625  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:43.625  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:43.625  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_21-51-23.904_7680x4320.png
+08-10 10:04:43.630  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:43.631  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:43.631  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{3f68e06 V.E...... ......I. 0,0-0,0}
+08-10 10:04:43.631  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:43.631  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:43.631  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:43.631  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:43.631  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:43.631  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:43.631  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:43.631  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:43.631  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_21-51-25.724_7680x4320.png
+08-10 10:04:43.631  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_21-51-25.724_7680x4320.png
+08-10 10:04:43.631  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_21-51-25.724_7680x4320.png, gridBinding: true
+08-10 10:04:43.631  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:43.631  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_21-51-25.724_7680x4320.png
+08-10 10:04:43.631  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:43.631  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:43.631  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_21-51-25.724_7680x4320.png
+08-10 10:04:43.634  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:43.635  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:43.635  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{bc81b19 V.E...... ......I. 0,0-0,0}
+08-10 10:04:43.635  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:43.635  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:43.635  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:43.635  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:43.635  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:43.635  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:43.635  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:43.635  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:43.635  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_21-51-29.669_4320x7680.png
+08-10 10:04:43.635  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_21-51-29.669_4320x7680.png
+08-10 10:04:43.635  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_21-51-29.669_4320x7680.png, gridBinding: true
+08-10 10:04:43.635  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:43.636  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_21-51-29.669_4320x7680.png
+08-10 10:04:43.636  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:43.636  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:43.636  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_21-51-29.669_4320x7680.png
+08-10 10:04:43.638  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:43.639  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:43.639  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{98c0578 V.E...... ......I. 0,0-0,0}
+08-10 10:04:43.639  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:43.639  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:43.639  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:43.639  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:43.639  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:43.639  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:43.639  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:43.639  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:43.639  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_21-51-37.876_7680x4320.png
+08-10 10:04:43.639  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_21-51-37.876_7680x4320.png
+08-10 10:04:43.639  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_21-51-37.876_7680x4320.png, gridBinding: true
+08-10 10:04:43.639  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:43.640  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_21-51-37.876_7680x4320.png
+08-10 10:04:43.640  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:43.640  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:43.640  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_21-51-37.876_7680x4320.png
+08-10 10:04:43.645  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:43.646  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:43.646  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{edd968f V.E...... ......I. 0,0-0,0}
+08-10 10:04:43.646  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:43.646  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:43.646  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:43.646  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:43.646  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:43.646  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:43.646  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:43.646  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:43.646  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_21-51-44.125_7680x4320.png
+08-10 10:04:43.646  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_21-51-44.125_7680x4320.png
+08-10 10:04:43.646  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_21-51-44.125_7680x4320.png, gridBinding: true
+08-10 10:04:43.646  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:43.647  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_21-51-44.125_7680x4320.png
+08-10 10:04:43.647  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:43.647  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:43.647  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_21-51-44.125_7680x4320.png
+08-10 10:04:43.650  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:43.650  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:43.650  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{16cb0c6 V.E...... ......I. 0,0-0,0}
+08-10 10:04:43.650  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:43.650  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:43.650  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:43.650  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:43.650  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:43.650  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:43.650  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:43.650  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:43.651  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_21-52-30.186_4320x7680.png
+08-10 10:04:43.651  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_21-52-30.186_4320x7680.png
+08-10 10:04:43.651  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_21-52-30.186_4320x7680.png, gridBinding: true
+08-10 10:04:43.651  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:43.651  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_21-52-30.186_4320x7680.png
+08-10 10:04:43.651  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:43.651  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:43.651  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_21-52-30.186_4320x7680.png
+08-10 10:04:43.654  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:43.654  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:43.654  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{e1b08d9 V.E...... ......I. 0,0-0,0}
+08-10 10:04:43.654  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:43.654  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:43.654  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:43.654  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:43.654  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:43.654  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:43.654  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:43.654  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:43.654  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_21-54-13.450_7680x4320.png
+08-10 10:04:43.654  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_21-54-13.450_7680x4320.png
+08-10 10:04:43.654  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_21-54-13.450_7680x4320.png, gridBinding: true
+08-10 10:04:43.654  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:43.655  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_21-54-13.450_7680x4320.png
+08-10 10:04:43.655  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:43.655  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:43.655  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_21-54-13.450_7680x4320.png
+08-10 10:04:43.660  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:43.661  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:43.661  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{a7b244 V.E...... ......I. 0,0-0,0}
+08-10 10:04:43.661  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:43.661  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:43.661  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:43.661  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:43.661  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:43.661  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:43.661  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:43.661  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:43.661  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_21-55-37.948_4320x7680.png
+08-10 10:04:43.661  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_21-55-37.948_4320x7680.png
+08-10 10:04:43.661  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_21-55-37.948_4320x7680.png, gridBinding: true
+08-10 10:04:43.661  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:43.662  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_21-55-37.948_4320x7680.png
+08-10 10:04:43.662  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:43.662  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:43.662  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_21-55-37.948_4320x7680.png
+08-10 10:04:43.665  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:43.666  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:43.666  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{4d3ea4f V.E...... ......I. 0,0-0,0}
+08-10 10:04:43.666  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:43.666  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:43.666  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:43.666  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:43.666  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:43.666  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:43.666  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:43.666  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:43.666  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_21-55-59.635_4320x7680.png
+08-10 10:04:43.666  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_21-55-59.635_4320x7680.png
+08-10 10:04:43.666  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_21-55-59.635_4320x7680.png, gridBinding: true
+08-10 10:04:43.666  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:43.666  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_21-55-59.635_4320x7680.png
+08-10 10:04:43.666  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:43.666  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:43.666  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_21-55-59.635_4320x7680.png
+08-10 10:04:43.669  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:43.670  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:43.670  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{3239386 V.E...... ......I. 0,0-0,0}
+08-10 10:04:43.670  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:43.670  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:43.670  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:43.670  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:43.670  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:43.670  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:43.670  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:43.670  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:43.670  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_21-56-49.347_7680x4320.png
+08-10 10:04:43.670  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_21-56-49.347_7680x4320.png
+08-10 10:04:43.670  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_21-56-49.347_7680x4320.png, gridBinding: true
+08-10 10:04:43.670  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:43.670  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_21-56-49.347_7680x4320.png
+08-10 10:04:43.670  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:43.670  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:43.670  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_21-56-49.347_7680x4320.png
+08-10 10:04:43.675  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:43.676  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:43.676  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{6e3f035 V.E...... ......I. 0,0-0,0}
+08-10 10:04:43.676  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:43.676  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:43.676  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:43.676  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:43.676  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:43.676  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:43.676  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:43.676  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:43.676  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_21-57-08.682_7680x4320.png
+08-10 10:04:43.676  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_21-57-08.682_7680x4320.png
+08-10 10:04:43.676  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_21-57-08.682_7680x4320.png, gridBinding: true
+08-10 10:04:43.676  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:43.677  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_21-57-08.682_7680x4320.png
+08-10 10:04:43.677  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:43.677  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:43.677  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_21-57-08.682_7680x4320.png
+08-10 10:04:43.680  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:43.681  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:43.681  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{9fb4304 V.E...... ......I. 0,0-0,0}
+08-10 10:04:43.681  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:43.681  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:43.681  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:43.681  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:43.681  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:43.681  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:43.681  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:43.681  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:43.681  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_21-58-12.115_4320x7680.png
+08-10 10:04:43.681  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_21-58-12.115_4320x7680.png
+08-10 10:04:43.681  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_21-58-12.115_4320x7680.png, gridBinding: true
+08-10 10:04:43.681  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:43.681  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_21-58-12.115_4320x7680.png
+08-10 10:04:43.681  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:43.681  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:43.681  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_21-58-12.115_4320x7680.png
+08-10 10:04:43.687  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:43.688  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:43.688  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{323fe0f V.E...... ......I. 0,0-0,0}
+08-10 10:04:43.688  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:43.688  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:43.688  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:43.688  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:43.688  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:43.688  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:43.688  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:43.688  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:43.688  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_21-58-15.225_4320x7680.png
+08-10 10:04:43.688  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_21-58-15.225_4320x7680.png
+08-10 10:04:43.688  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_21-58-15.225_4320x7680.png, gridBinding: true
+08-10 10:04:43.688  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:43.688  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_21-58-15.225_4320x7680.png
+08-10 10:04:43.688  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:43.688  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:43.688  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_21-58-15.225_4320x7680.png
+08-10 10:04:43.694  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:43.694  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:43.694  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{74c032 V.E...... ......I. 0,0-0,0}
+08-10 10:04:43.694  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:43.694  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:43.694  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:43.694  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:43.694  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:43.694  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:43.694  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:43.695  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:43.695  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_21-58-18.766_4320x7680.png
+08-10 10:04:43.695  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_21-58-18.766_4320x7680.png
+08-10 10:04:43.695  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_21-58-18.766_4320x7680.png, gridBinding: true
+08-10 10:04:43.695  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:43.695  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_21-58-18.766_4320x7680.png
+08-10 10:04:43.695  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:43.695  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:43.695  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_21-58-18.766_4320x7680.png
+08-10 10:04:43.698  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:43.699  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:43.699  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{b9f59f5 V.E...... ......I. 0,0-0,0}
+08-10 10:04:43.699  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:43.699  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:43.699  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:43.699  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:43.699  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:43.699  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:43.699  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:43.699  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:43.699  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_21-58-50.049_4320x7680.png
+08-10 10:04:43.699  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_21-58-50.049_4320x7680.png
+08-10 10:04:43.699  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_21-58-50.049_4320x7680.png, gridBinding: true
+08-10 10:04:43.699  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:43.699  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_21-58-50.049_4320x7680.png
+08-10 10:04:43.699  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:43.699  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:43.699  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_21-58-50.049_4320x7680.png
+08-10 10:04:43.702  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:43.703  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:43.703  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{9ad93c4 V.E...... ......I. 0,0-0,0}
+08-10 10:04:43.703  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:43.703  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:43.703  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:43.703  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:43.703  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:43.703  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:43.703  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:43.703  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:43.703  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_21-59-14.672_4320x7680.png
+08-10 10:04:43.703  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_21-59-14.672_4320x7680.png
+08-10 10:04:43.703  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_21-59-14.672_4320x7680.png, gridBinding: true
+08-10 10:04:43.703  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:43.703  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_21-59-14.672_4320x7680.png
+08-10 10:04:43.703  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:43.703  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:43.703  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_21-59-14.672_4320x7680.png
+08-10 10:04:43.708  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:43.709  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:43.709  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{cb18bcb V.E...... ......I. 0,0-0,0}
+08-10 10:04:43.709  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:43.709  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:43.709  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:43.709  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:43.709  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:43.709  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:43.709  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:43.709  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:43.709  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_22-01-43.938_7680x4320.png
+08-10 10:04:43.709  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_22-01-43.938_7680x4320.png
+08-10 10:04:43.709  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_22-01-43.938_7680x4320.png, gridBinding: true
+08-10 10:04:43.709  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:43.710  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_22-01-43.938_7680x4320.png
+08-10 10:04:43.710  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:43.710  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:43.710  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_22-01-43.938_7680x4320.png
+08-10 10:04:43.712  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:43.713  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:43.713  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{87eeef2 V.E...... ......I. 0,0-0,0}
+08-10 10:04:43.713  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:43.713  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:43.713  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:43.713  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:43.713  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:43.713  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:43.713  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:43.713  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:43.713  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_22-01-52.237_7680x4320.png
+08-10 10:04:43.713  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_22-01-52.237_7680x4320.png
+08-10 10:04:43.713  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_22-01-52.237_7680x4320.png, gridBinding: true
+08-10 10:04:43.713  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:43.714  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_22-01-52.237_7680x4320.png
+08-10 10:04:43.714  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:43.714  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:43.714  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_22-01-52.237_7680x4320.png
+08-10 10:04:43.716  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:43.717  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:43.717  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{eba83b5 V.E...... ......I. 0,0-0,0}
+08-10 10:04:43.717  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:43.717  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:43.717  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:43.717  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:43.717  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:43.717  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:43.717  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:43.717  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:43.717  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_22-02-00.234_7680x4320.png
+08-10 10:04:43.717  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_22-02-00.234_7680x4320.png
+08-10 10:04:43.717  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_22-02-00.234_7680x4320.png, gridBinding: true
+08-10 10:04:43.717  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:43.717  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_22-02-00.234_7680x4320.png
+08-10 10:04:43.717  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:43.717  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:43.717  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_22-02-00.234_7680x4320.png
+08-10 10:04:43.722  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:43.723  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:43.723  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{f43b50 V.E...... ......I. 0,0-0,0}
+08-10 10:04:43.723  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:43.723  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:43.723  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:43.723  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:43.723  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:43.723  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:43.723  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:43.723  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:43.723  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_22-06-45.004_7680x4320.png
+08-10 10:04:43.723  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_22-06-45.004_7680x4320.png
+08-10 10:04:43.723  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_22-06-45.004_7680x4320.png, gridBinding: true
+08-10 10:04:43.723  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:43.723  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_22-06-45.004_7680x4320.png
+08-10 10:04:43.723  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:43.723  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:43.723  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_22-06-45.004_7680x4320.png
+08-10 10:04:43.726  9281  9281 D BrowseFilesAdapter: setupGridMode() called
+08-10 10:04:43.726  9281  9281 D BrowseFilesAdapter: setupGridMode() - container child count after addView: 6
+08-10 10:04:43.726  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root parent: android.widget.RelativeLayout{a3d7b8b V.E...... ......I. 0,0-0,0}
+08-10 10:04:43.726  9281  9281 D BrowseFilesAdapter: setupGridMode() - gridBinding.root visibility: 0
+08-10 10:04:43.726  9281  9281 D BrowseFilesAdapter: setupGridMode() - FIXED: set root visibility to VISIBLE
+08-10 10:04:43.726  9281  9281 D BrowseFilesAdapter: setupGridMode() - forced all views to VISIBLE
+08-10 10:04:43.726  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set filename view visibility directly
+08-10 10:04:43.726  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set date view visibility directly
+08-10 10:04:43.726  9281  9281 D BrowseFilesAdapter: setupGridMode() - Found and set settings view visibility directly
+08-10 10:04:43.726  9281  9281 D BrowseFilesAdapter: setupGridMode() - visibility after force: filename=0, date=0, settings=0
+08-10 10:04:43.726  9281  9281 D BrowseFilesAdapter: setupGridMode() completed - gridBinding: true
+08-10 10:04:43.727  9281  9281 D BrowseFilesAdapter: bind() called - viewType: 1, node: VRChat_2025-08-03_22-06-48.095_7680x4320.png
+08-10 10:04:43.727  9281  9281 D BrowseFilesAdapter: Calling bindGridMode for: VRChat_2025-08-03_22-06-48.095_7680x4320.png
+08-10 10:04:43.727  9281  9281 D BrowseFilesAdapter: bindGridMode() called for: VRChat_2025-08-03_22-06-48.095_7680x4320.png, gridBinding: true
+08-10 10:04:43.727  9281  9281 D BrowseFilesAdapter: bindGridMode() START - visibility before binding: filename=0, date=0, settings=0
+08-10 10:04:43.727  9281  9281 D BrowseFilesAdapter: Set filename text to: FILE: VRChat_2025-08-03_22-06-48.095_7680x4320.png
+08-10 10:04:43.727  9281  9281 D BrowseFilesAdapter: Set date text to: DATE: 6 日前に編集
+08-10 10:04:43.727  9281  9281 D BrowseFilesAdapter: Grid views visibility - filename: 0, date: 0, settings: 0
+08-10 10:04:43.727  9281  9281 D BrowseFilesAdapter: bindGridMode completed for: VRChat_2025-08-03_22-06-48.095_7680x4320.png
+08-10 10:04:43.729  9281  9281 D BrowseFilesAdapter: setupGridMode() calle
